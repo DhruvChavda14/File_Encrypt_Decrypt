@@ -1,0 +1,26 @@
+# Ignore build artifacts
+build/
+*.o
+*.obj
+*.exe
+*.out
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore user-specific files
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignore test files
+test/
+*.txt
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.code-workspace
